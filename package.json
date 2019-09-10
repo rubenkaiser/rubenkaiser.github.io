@@ -7,7 +7,8 @@
   "author": "Ruben Kaiser",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
