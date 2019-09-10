@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="194px" viewBox="0 0 106 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-298.000000, -1024.000000)">
+            <g id="Group-2" transform="translate(298.000000, 1024.000000)">
+                <g id="Group">
+                    <polygon id="Triangle" fill="#FF7B1A" points="53 0 106 81 0 81"></polygon>
+                    <polygon id="Triangle" fill="#FFAA23" points="0 9 75 81 0 81"></polygon>
+                    <polygon id="Triangle" fill="#FFBC28" transform="translate(68.500000, 45.000000) scale(-1, 1) translate(-68.500000, -45.000000) " points="31 9 106 81 31 81"></polygon>
+                </g>
+                <polygon id="Path-2" fill="#CC7D55" points="0 81 1.10328413e-14 157.372414 23.3823529 182.310345 53 194 82.6176471 182.310345 106 157.372414 106 81"></polygon>
+                <polygon id="Rectangle" fill="#FBF7F6" points="9 81 96 81 89.7857143 116.777778 60.2678571 123 52.5 123 44.7321429 123 15.2142857 116.777778"></polygon>
+                <circle id="Oval" fill="#5D5D5D" cx="34.5" cy="101.5" r="5.5"></circle>
+                <circle id="Oval" fill="#5D5D5D" cx="70.5" cy="101.5" r="5.5"></circle>
+                <rect id="Rectangle-2" fill="#AA6746" x="37" y="137" width="31" height="7"></rect>
+                <rect id="Rectangle-2" fill="#F6E0DB" x="47" y="95" width="12" height="28"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

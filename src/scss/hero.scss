@@ -1,0 +1,19 @@
+section.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 10vh 0;
+  background-image: url('./../assets/images/hero-bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  h1 {
+    font-size: calc(16px + 3.4vw);
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: calc(16px + .4vw);
+  }
+}

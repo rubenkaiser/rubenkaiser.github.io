@@ -1,0 +1,88 @@
+@import 'variables';
+
+.project {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: $borderColor;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  //max-height: 50%;
+  position: relative;
+
+  &--text-left {
+    &:before {
+      content: '';
+      z-index: -2;
+      display: block;
+      width: 50%;
+      position: absolute;
+      height: inherit;
+      left: 0;
+      top: 0;
+      background: $lightGreen;
+    }
+    &:after {
+      content: '';
+      z-index: -1;
+      display: block;
+      width: 20vw;
+      height: 20vw;
+      border-radius: 10vw;
+      left: 15vw;
+      top: 50%;
+      margin-top: -10vw;
+      position: absolute;
+      background: #fff;
+    }
+  }
+  &--text-right {
+    &:before {
+      content: '';
+      z-index: -2;
+      display: block;
+      width: 50%;
+      position: absolute;
+      height: inherit;
+      right: 0;
+      top: 0;
+      background: $lightGreen;
+    }
+    &:after {
+      content: '';
+      z-index: -1;
+      display: block;
+      width: 20vw;
+      height: 20vw;
+      border-radius: 10vw;
+      right: 15vw;
+      top: 50%;
+      margin-top: -10vw;
+      position: absolute;
+      background: #fff;
+    }
+  }
+  > div {
+    box-sizing: border-box;
+    padding: 0 5vw;
+    flex: 1;
+  }
+
+  &__image--position-bottom {
+    > div:first-child {
+      align-self: flex-end;
+    }
+    &:before {
+      content: '';
+      z-index: -2;
+      display: block;
+      width: 50%;
+      position: absolute;
+      height: inherit;
+      left: 0;
+      top: 0;
+      background: #71A191;
+    }
+  }
+}

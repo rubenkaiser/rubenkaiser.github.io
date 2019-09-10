@@ -1,0 +1,47 @@
+header {
+  margin: 2rem auto;
+  width: 90vw;
+  max-width: 960px;
+  height: 80px;
+  display:flex;
+  align-items: center;
+  h1 {
+    text-align: center;
+    font-size: calc(16px + .4vw);
+    flex: 1;
+    margin: 0;
+  }
+  a {
+    width: 84px;
+    display: flex;
+    img {
+      height: 84px;
+      width: auto;
+    }
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    20% {
+      stroke-dashoffset: 0;
+    }
+    60% {
+      stroke-dashoffset: 0;
+    }
+    80% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 1000;
+    }
+  }
+
+  .line {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 10s linear forwards infinite;
+  }
+
+}

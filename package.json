@@ -1,0 +1,17 @@
+{
+  "name": "rubenkaiser.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "repository": "https://github.com/rubenkaiser/rubenkaiser.github.io.git",
+  "author": "Ruben Kaiser",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.4"
+  }
+}
