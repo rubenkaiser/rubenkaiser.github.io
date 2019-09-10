@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="311px" viewBox="0 0 225 311" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>character</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-247.000000, -1437.000000)" fill-rule="nonzero">
+            <g id="character" transform="translate(247.000000, 1437.000000)">
+                <path d="M114,174.086968 L155.728395,174.086968 L201.308642,203.794512 L218,311 L114,311 L114,310.913032 L10,310.913032 L26.691358,203.707545 L72.2716049,174 L114,174 L114,174.086968 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <g id="bowtie" transform="translate(65.000000, 194.000000)" fill="#424242">
+                    <rect id="Rectangle" x="34.8292683" y="8.93129771" width="29.3658537" height="29.5419847" rx="7"></rect>
+                    <polygon id="Path-4" points="37.902439 13.6956522 0 0 0 45 37.902439 34.2391304"></polygon>
+                    <polygon id="Path-4" transform="translate(79.048780, 22.500000) scale(-1, 1) translate(-79.048780, -22.500000) " points="98 13.6956522 60.097561 0 60.097561 45 98 34.2391304"></polygon>
+                </g>
+                <ellipse id="Oval" fill="#FFFFFF" cx="49" cy="117.5" rx="38" ry="38.5"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="176" cy="117.5" rx="38" ry="38.5"></ellipse>
+                <circle id="Oval" fill="#FFFFFF" cx="200.5" cy="75.5" r="24.5"></circle>
+                <rect id="Rectangle" fill="#E1B5AF" x="27" y="84" width="31" height="45" rx="15.5"></rect>
+                <rect id="Rectangle" fill="#E1B5AF" x="167" y="84" width="31" height="45" rx="15.5"></rect>
+                <circle id="Oval" fill="#FFFFFF" cx="24.5" cy="75.5" r="24.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="200.5" cy="75.5" r="24.5"></circle>
+                <rect id="Rectangle" fill="#F2D2CE" x="37" y="0" width="152" height="200" rx="76"></rect>
+                <circle id="Oval" fill="#FFFFFF" cx="83.5" cy="91.5" r="17.5"></circle>
+                <path d="M101,85 C101,77.8202983 93.1649831,72 83.5,72 C73.8350169,72 66,77.8202983 66,85 C77.6666667,81.1923882 90.6296296,81.1923882 101,85 Z" id="Oval" fill="#E1B5AF"></path>
+                <g id="eye-left" transform="translate(73.000000, 86.000000)">
+                    <circle id="Oval" fill="#5F9FB9" cx="11" cy="11" r="11"></circle>
+                    <circle id="Oval" fill="#323232" cx="10.3125" cy="13.0625" r="5.15625"></circle>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="141.5" cy="91.5" r="17.5"></circle>
+                <circle id="Oval" stroke="#313131" stroke-width="9" cx="140.5" cy="90.5" r="24.5"></circle>
+                <path d="M155,111 L165.8,122.038961 C165.8,133.294372 165.8,142.818182 165.8,150.61039 C165.8,158.839024 170.114307,161 174.097561,161 C178.080815,161 182,157.316478 182,150.61039" id="Line" stroke="#313131" stroke-width="9" stroke-linecap="round"></path>
+                <g id="eye-right" transform="translate(130.000000, 86.000000)">
+                    <circle id="Oval" fill="#5F9FB9" cx="11" cy="11" r="11"></circle>
+                    <circle id="Oval" fill="#323232" cx="11.6875" cy="13.0625" r="5.15625"></circle>
+                </g>
+                <g id="mustache" transform="translate(80.000000, 129.000000)" fill="#FFFFFF">
+                    <path d="M20,0 L45.8,-1.42108547e-14 C56.4038672,-1.61587535e-14 65,8.5961328 65,19.2 L65,19.2 L0,20 L0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 Z" id="Rectangle"></path>
+                </g>
+                <rect id="Rectangle" fill="#E1B5AF" x="104" y="105" width="20" height="31" rx="10"></rect>
+                <rect id="Rectangle" fill="#E1B5AF" x="91" y="57" width="46" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#E1B5AF" x="86" y="43" width="54" height="5" rx="2.5"></rect>
+                <path d="M159,85 C159,77.8202983 151.164983,72 141.5,72 C131.835017,72 124,77.8202983 124,85 C135.666667,81.1923882 148.62963,81.1923882 159,85 Z" id="Oval-Copy" fill="#E1B5AF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

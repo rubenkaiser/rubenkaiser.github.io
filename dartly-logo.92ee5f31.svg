@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>App Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-8.08254811%" y1="50%" x2="63.7191982%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.336192255" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-269.000000, -1870.000000)">
+            <g id="App-Icon" transform="translate(269.000000, 1870.000000)">
+                <rect id="Rectangle" fill="#EF457F" x="-5.68434189e-14" y="0" width="165" height="165" rx="28"></rect>
+                <polygon id="Rectangle-3" fill="url(#linearGradient-1)" points="125.335407 66.4516454 83 38 83 131 130 113.493248"></polygon>
+                <path d="M83.5,33.5522648 L41.590463,65.5891628 C39.6757085,67.0528582 38.418961,69.2328342 38.1049924,71.6431482 L33.0778755,110.235952 C32.504153,114.640377 35.1663125,118.808098 39.3554338,120.100603 L83.5,133.720903 L127.644566,120.100603 C131.833688,118.808098 134.495847,114.640377 133.922125,110.235952 L128.895008,71.6431482 C128.581039,69.2328342 127.324292,67.0528582 125.409537,65.5891628 L83.5,33.5522648 Z" id="Rectangle-2" stroke="#FFFFFF" stroke-width="12"></path>
+            </g>
+        </g>
+    </g>
+</svg>
