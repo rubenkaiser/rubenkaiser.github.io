@@ -18,6 +18,10 @@ header {
       height: 84px;
       width: auto;
     }
+
+    &.menu {
+      opacity: .4;
+    }
   }
 
   @keyframes dash {
