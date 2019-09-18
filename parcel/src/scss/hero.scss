@@ -1,5 +1,5 @@
 section.hero {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,10 +10,12 @@ section.hero {
   background-repeat: no-repeat;
   background-position: center center;
   h1 {
-    font-size: calc(16px + 3.4vw);
+    font-size: calc(32px + 3.4vw);
     margin-bottom: 0;
   }
   p {
-    font-size: calc(16px + .4vw);
+    margin-top: calc(1vw);
+    font-size: calc(14px + 1vw);
+    line-height: calc(28px + 1vw);
   }
 }
