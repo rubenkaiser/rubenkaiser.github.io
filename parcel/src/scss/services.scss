@@ -63,6 +63,9 @@
       &:nth-child(even){
         padding-left: 24px;
       }
+      p {
+        max-width: none;
+      }
     }
   }
 }
