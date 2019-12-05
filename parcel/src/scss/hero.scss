@@ -1,14 +1,13 @@
 section.hero {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 50vh;
+  width: 90%;
+  max-width: 980px;
+  margin: 15vh auto 10vh auto;
+  position: relative;
   text-align: center;
-  margin: 0 0 10vh 0;
-  background-image: url('./../assets/images/hero-bg.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+  img {
+    width: 204px;
+  }
   h1 {
     font-size: 48px;
     margin-bottom: 0;
@@ -17,18 +16,39 @@ section.hero {
     margin-top: .5rem;
     font-size: 16px;
     line-height: 28px;
+    max-width: 500px;
+    display: inline-block;
+  }
+  .btn {
+    font-size: 24px;
+    padding: 0 30px;
+    border-radius: 30px;
+    line-height: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
   section.hero {
+    margin: 25vh auto 10vh auto;
+    text-align: left;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
     h1 {
-      font-size: calc(32px + 3.4vw);
+      font-size: calc(48px + 1vw);
+      margin-left: 240px;
     }
     p {
       margin-top: calc(1vw);
-      font-size: calc(14px + 1vw);
-      line-height: calc(28px + 1vw);
+      font-size: calc(16px + .8vw);
+      line-height: calc(28px + .8vw);
+      margin-left: 240px;
+      max-width: none;
+    }
+    .btn {
+      margin-left: 240px;
     }
   }
 }

@@ -1,7 +1,7 @@
 @import 'variables';
 
 section.needHelp {
-  background: $red;
+  background: $blue;
   padding: 3rem 0;
   vertical-align: middle;
   text-align: center;
@@ -14,10 +14,11 @@ section.needHelp {
     line-height: 60px;
   }
   a.btn {
-    cursor: pointer;
     font-size: 24px;
     padding: 0 30px;
     border-radius: 30px;
     line-height: 60px;
+    background: #fff;
+    color: $headingColor;
   }
 }

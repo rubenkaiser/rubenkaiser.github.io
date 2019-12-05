@@ -2,17 +2,17 @@
 
 footer {
   margin: 0;
-  background: $darkBlue;
+  background: #fff;
+  display: flex;
   div {
-    margin: 0 auto;
-    width: 90vw;
-    max-width: 960px;
-    height: 80px;
-    text-align: center;
+    flex: 1;
+    &:nth-child(2){
+      text-align: right;
+    }
   }
   p {
-    line-height: 80px;
-    color: #fff;
+    color: $headingColor;
+    line-height: 120px;
     padding: 0;
     margin: 0;
   }

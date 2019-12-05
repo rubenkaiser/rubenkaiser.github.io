@@ -5,8 +5,6 @@
 @import 'hero';
 @import 'needHelp';
 @import 'services';
-@import 'value';
-@import 'projects';
 @import 'footer';
 
 body {
@@ -17,18 +15,18 @@ body {
 }
 
 p {
-  color: #8E929F;
+  color: $fontColor;
   font-size: calc(14px + .2vw);
   line-height: calc(20px + .6vw);
 }
 
-h1, h2, h3 {
-  //color: #4B4A78;
+.h1, .h2, .h3 {
+  color: $headingColor;
   font-weight: 400;
   font-family: 'Lexend Deca', sans-serif; //'Montserrat', sans-serif;
 }
 
-h1 {
+.h1 {
   font-size: calc(20px + 1vw);
   margin: 1.4rem 0 1rem 0;
 }
@@ -45,20 +43,27 @@ a.btn {
   border-radius: 25px;
   line-height: 50px;
   display: inline-block;
-  background: #fff;
+  background: $blue;
+  color: #fff;
   transition: all .2s ease-in-out;
   transform: scale(1);
   &:hover {
     color: #fff;
-    background: $yellow;
+    background: darken($blue, 5%);
     transform: scale(1.1);
    
   }
-  &--alt {
+  &--green {
     color: #fff;
-    background: $yellow;
+    background: $green;
     &:hover {
-      background: $red;
+      background: darken($green, 5%);
     }
   }
+}
+
+.container {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
