@@ -1,5 +1,4 @@
 section.hero {
-  height: 50vh;
   width: 90%;
   max-width: 980px;
   margin: 15vh auto 10vh auto;
@@ -29,6 +28,7 @@ section.hero {
 
 @media screen and (min-width: 768px) {
   section.hero {
+    height: 50vh;
     margin: 25vh auto 10vh auto;
     text-align: left;
     img {
