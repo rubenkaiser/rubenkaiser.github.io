@@ -14,9 +14,9 @@
   a {
     width: 60px;
     display: flex;
-    img {
+    img, svg {
       height: 60px;
-      width: auto;
+      width: 60px;
     }
 
     &.menu {
@@ -118,8 +118,9 @@
     height: 80px;
     a {
       width: 84px;
-      img {
+      img, svg {
         height: 84px;
+        width: 84px;
       }
     }
   }
