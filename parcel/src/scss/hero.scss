@@ -5,8 +5,18 @@ section.hero {
   position: relative;
   text-align: center;
   padding-bottom: 10vh;
-  img {
+  img, svg {
     width: 204px;
+  }
+
+  #eyes {
+    transition: transform .6s ease-in-out;
+    &.right {
+      transform: translateX(2px);
+    }
+    &.left {
+      transform: translateX(-1px);
+    }
   }
   h1 {
     font-size: 48px;
@@ -33,7 +43,7 @@ section.hero {
     margin: 25vh auto 10vh auto;
     text-align: left;
     padding-bottom: 0;
-    img {
+    img, svg {
       position: absolute;
       top: 0;
       left: 0;
