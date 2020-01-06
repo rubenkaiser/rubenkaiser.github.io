@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
+    "parcel-plugin-html-partials": "0.0.5",
     "sass": "^1.17.4"
   },
   "dependencies": {
