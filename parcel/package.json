@@ -11,13 +11,8 @@
     "build": "parcel build src/index.html --out-dir ../"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-html-partials": "0.0.5",
-    "sass": "^1.17.4"
-  },
-  "dependencies": {
-    "lodash": "^4.17.13",
-    "mixin-deep": "^2.0.1",
-    "set-value": "^2.0.1"
+    "sass": "^1.24.2"
   }
 }
