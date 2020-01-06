@@ -25,20 +25,22 @@ try {
   const eyes = document.getElementById('eyes');
 
   const checkMousePosition = (e) => {
-    const w = window.innerWidth;
-    const x = e.screenX;
+    if (eyes) {
+      const w = window.innerWidth;
+      const x = e.screenX;
 
-    const lookRight = x > (w/2);
-    const initial = eyes.classList.length === 0;
-    
-    if ((eyes.classList.contains('left') || initial) && lookRight ) {
-      eyes.classList.remove('left');
-      eyes.classList.add('right');
-    }
+      const lookRight = x > (w/2);
+      const initial = eyes.classList.length === 0;
+      
+      if ((eyes.classList.contains('left') || initial) && lookRight ) {
+        eyes.classList.remove('left');
+        eyes.classList.add('right');
+      }
 
-    if ((eyes.classList.contains('right') || initial) && !lookRight) {
-      eyes.classList.remove('right');
-      eyes.classList.add('left');
+      if ((eyes.classList.contains('right') || initial) && !lookRight) {
+        eyes.classList.remove('right');
+        eyes.classList.add('left');
+      }
     }
   }
 
