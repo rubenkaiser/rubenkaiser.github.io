@@ -1,8 +1,15 @@
 @import 'variables';
 
 .header {
-  margin: 2rem auto !important;
+  background: #fff;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90vw;
   height: 60px;
+ 
+  padding: 2rem 5vw;
   display:flex;
   align-items: center;
   h1 {
@@ -24,6 +31,7 @@
       //opacity: .2;
     }
   }
+  
 
   @keyframes dash {
     0% {

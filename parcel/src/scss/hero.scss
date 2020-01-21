@@ -1,13 +1,12 @@
 section.hero {
   width: 90%;
   max-width: 980px;
-  margin: 12vh auto 8vh auto;
   position: relative;
   text-align: center;
-  padding-bottom: 10vh;
-  img, svg {
-    width: 204px;
-  }
+  height: 100vh;
+  margin: 0 auto;
+
+  padding-top: 20vh;
 
   #eyes {
     transition: transform .6s ease-in-out;
@@ -18,8 +17,9 @@ section.hero {
       transform: translateX(-1px);
     }
   }
+
   h1 {
-    font-size: 48px;
+    font-size: 60px;
     margin-bottom: 0;
   }
   p {
@@ -39,28 +39,36 @@ section.hero {
 
 @media screen and (min-width: 768px) {
   section.hero {
-    height: 50vh;
-    margin: 25vh auto 10vh auto;
+    padding-top: 0;
+  
     text-align: left;
-    padding-bottom: 0;
-    img, svg {
-      position: absolute;
-      top: 0;
-      left: 0;
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+  
+    div {
+      flex: 1;
     }
+  
+    > div:first-child {
+      width: 40%;
+      text-align: center;
+      padding-right: 36px;
+      img {
+        width: 90%;
+      }
+    }
+
     h1 {
-      font-size: calc(48px + 1vw);
-      margin-left: 240px;
+      margin-left: -7px;
+      font-size: calc(90px + 1vw);
     }
     p {
       margin-top: calc(1vw);
-      font-size: calc(16px + .8vw);
-      line-height: calc(28px + .8vw);
-      margin-left: 240px;
+      font-size: calc(16px + .4vw);
+      line-height: calc(28px + .4vw);
       max-width: none;
-    }
-    .btn {
-      margin-left: 240px;
     }
   }
 }
